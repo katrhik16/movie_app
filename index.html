@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adult Movies</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="movie-container">
+      <label>Select a Movie</label>
+      <select id="movie">
+        <option value="₨500">Shakila-Neighbour Auntie(Rs.500/-)</option>
+        <option value="₨750">Behind the Doors Quickie(Rs.750/-)</option>
+        <option value="₨400">The Lord(Rs.400/-)</option>
+        <option value="₨1000">The LadyBoy & the Prince(Rs.1000/-)</option>
+      </select>
+    </div>
+    <ul class="Showcase">
+      <li>
+        <div class="seat">
+          <small>N/A</small>
+        </div>
+      </li>
+      <li>
+        <div class="seat selected">
+          <small>Selected</small>
+        </div>
+      </li>
+      <li>
+        <div class="seat Occupied">
+          <small>Occupied</small>
+        </div>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat Occupied"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat Occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat Occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of ₨<span
+        id="total"
+        >0</span
+      >
+    </p>
+    <script src="./index.js"></script>
+  </body>
+</html>
